@@ -10,6 +10,12 @@ import android.widget.TextView;
 
 import java.util.ArrayList;
 
+/**
+ * Created by moana on 5/20/2018.
+ * With the help of tutorials from Coding in Flow - Florian Walther
+ * Youtube channel https://www.youtube.com/channel/UC_Fh8kvtkVPkeihBs42jGcA
+ */
+
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder> {
     private ArrayList<ListItem> mList;
 
