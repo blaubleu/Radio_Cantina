@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/gridView"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:columnWidth="@dimen/dimen90dp"
+    android:numColumns="auto_fit"
+    android:verticalSpacing="@dimen/dimen8dp"
+    android:horizontalSpacing="@dimen/dimen8dp"
+    android:stretchMode="columnWidth"
+    android:gravity="center"
+    tools:context=".Playlist">
+
+</GridView>
