@@ -42,9 +42,9 @@ public class ImageAdapter extends BaseAdapter {
         if(convertView == null){
             //if not recycled init attributes
             imageView = new ImageView(mContext);
-            imageView.setLayoutParams(new ViewGroup.LayoutParams(104, 112)); //currently using small imgs update once final assets are in else final assets will be cropped to this size
+            imageView.setLayoutParams(new ViewGroup.LayoutParams(280, 288)); //currently using small imgs update once final assets are in else final assets will be cropped to this size
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(8,8,8,8);
+            imageView.setPadding(4,8,4,8);
         } else {
             imageView = (ImageView) convertView;
         }
