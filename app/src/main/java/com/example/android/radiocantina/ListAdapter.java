@@ -12,8 +12,8 @@ import java.util.ArrayList;
 
 /**
  * Created by moana on 5/20/2018.
- * With the help of tutorials from Coding in Flow - Florian Walther
- * Youtube channel https://www.youtube.com/channel/UC_Fh8kvtkVPkeihBs42jGcA
+ * With the help of tutorials from Coding in Flow - F. Walther
+ * as well as documentation from Android Developer Guides https://developer.android.com/guide/topics/ui/layout/recyclerview
  */
 
 public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder> {
@@ -27,6 +27,7 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
 
         public ListViewHolder(View itemView) {
             super(itemView);
+            // create widgets
             mImageView = itemView.findViewById(R.id.iconFade);
             mListTitle = itemView.findViewById(R.id.list_title);
             mListDescription = itemView.findViewById(R.id.list_description);
@@ -37,6 +38,12 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
         mList = list;
     }
 
+    /**
+     * Inflate new views
+     * @param parent
+     * @param viewType
+     * @return
+     */
     @NonNull
     @Override
     public ListViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
@@ -45,6 +52,11 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
         return lvh;
     }
 
+    /**
+     * Setters
+     * @param holder
+     * @param position
+     */
     @Override
     public void onBindViewHolder(@NonNull ListViewHolder holder, int position) {
         ListItem currentItem = mList.get(position);
@@ -55,6 +67,10 @@ public class ListAdapter extends RecyclerView.Adapter<ListAdapter.ListViewHolder
 
     }
 
+    /**
+     * Return array size
+     * @return
+     */
     @Override
     public int getItemCount() {
         return mList.size();
