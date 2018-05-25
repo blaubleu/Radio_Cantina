@@ -9,7 +9,7 @@
     android:numColumns="3"
     android:layout_marginTop="@dimen/dimen8dp"
     android:verticalSpacing="@dimen/dimen8dp"
-    android:horizontalSpacing="@dimen/dimen8dp"
+    android:horizontalSpacing="@dimen/dimen4dp"
     android:stretchMode="columnWidth"
     android:gravity="center"
     tools:context=".Playlist">

@@ -44,7 +44,7 @@ public class ImageAdapter extends BaseAdapter {
             imageView = new ImageView(mContext);
             imageView.setLayoutParams(new ViewGroup.LayoutParams(280, 288)); //currently using small imgs update once final assets are in else final assets will be cropped to this size
             imageView.setScaleType(ImageView.ScaleType.CENTER_CROP);
-            imageView.setPadding(4,8,4,8);
+            imageView.setPadding(2,8,2,8);
         } else {
             imageView = (ImageView) convertView;
         }
@@ -56,9 +56,12 @@ public class ImageAdapter extends BaseAdapter {
     //ref to imgs
 
     private Integer[] mThumbIds = {
-            R.drawable.badenpowelllist, R.drawable.chetbakerlist,
-            R.drawable.ellafitzgeraldlist, R.drawable.ettajones2list,
-            R.drawable.milesdavislist, R.drawable.ninasimonelist,
-            R.drawable.stephanewrembel2list
+            R.drawable.badenpowellgrid, R.drawable.johncoltranegrid, R.drawable.badenpowell2grid,
+            R.drawable.ellafitzgeraldgrid, R.drawable.ettajonesgrid, R.drawable.billieholidaygrid,
+            R.drawable.billieholiday2grid,R.drawable.chetbakergrid, R.drawable.chetbaker2grid,
+            R.drawable.dizzygillespiegrid, R.drawable.djangoreinhardt2grid, R. drawable.dizzygillespie2grid,
+            R.drawable.djangoreinhardtgrid, R.drawable.ettajones2grid, R.drawable.ellafitzgerald2grid,
+            R.drawable.ninasimonegrid, R.drawable.ninasimone2grid, R.drawable.stangetzgrid,
+            R.drawable.stangetz2grid, R.drawable.stephanewrembel2grid, R.drawable.stephanewrembelgrid
     };
 }

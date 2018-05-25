@@ -33,14 +33,12 @@ public class MainActivity extends AppCompatActivity {
         public void createList(){
           // add data using constructor
         mList = new ArrayList <>();
-        mList.add(new ListItem(R.drawable.badenpowelllist, "Jazz Divas & Cool Cats","Take your time to enjoy your favorite drink while listening to classic jazz"));
-        mList.add(new ListItem(R.drawable.badenpowelllist, "As heard at El Viejo", "A collection of music from your favorite bar"));
-        mList.add(new ListItem(R.drawable.stephanewrembel2list, "Girls night out", "Open a rosé with your besties and let your romantic spirits dream"));
-        mList.add(new ListItem(R.drawable.badenpowelllist, "Contemporary Lounge", "Set the mood for a great evening. Business outing. First date. Or hipster BBQ. This list is amazing!"));
-        mList.add(new ListItem(R.drawable.stephanewrembel2list, "French Touch", "Indochine, Louiss Attaque, Noir Désir, Mano Negra. Get your dose of 80's Frenchness"));
-        mList.add(new ListItem(R.drawable.stephanewrembel2list, "We met at the Movies","A collection of epic movie soundtracks"));
-        mList.add(new ListItem(R.drawable.badenpowelllist, "Kneipen-hopping", "Techno. Disco. Salsa. Trance. No matter what your late night style, we got you covered here"));
-
+        mList.add(new ListItem(R.drawable.badenpowellgrid, "Jazz Divas & Cool Cats","Take your time to enjoy your favorite drink while listening to classic jazz"));
+        mList.add(new ListItem(R.drawable.norahjones2, "Girls night out", "Open a rosé with your besties and let your romantic spirits dream"));
+        mList.add(new ListItem(R.drawable.theavener2, "Contemporary Lounge", "Set the mood for a great evening. Business outing. First date. Or hipster BBQ. This list is amazing!"));
+        mList.add(new ListItem(R.drawable.louiseattaque3, "French Touch", "Indochine, Louiss Attaque, Noir Désir, Mano Negra. Get your dose of 80's Frenchness"));
+        mList.add(new ListItem(R.drawable.melancholia2, "We met at the Movies","A collection of epic movie soundtracks"));
+        mList.add(new ListItem(R.drawable.sodastereo2, "As heard at El Viejo", "A collection of music from your favorite bar"));
         }
 
         public void buildRecyclerView (){
