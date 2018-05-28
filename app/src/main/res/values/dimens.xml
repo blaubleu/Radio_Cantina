@@ -8,4 +8,6 @@
     <dimen name="font24sp">24sp</dimen>
     <dimen name="dimen16dp">16dp</dimen>
     <dimen name="font16sp">16sp</dimen>
+    <dimen name="dimen60dp">60dp</dimen>
+    <dimen name="dimen350dp">350dp</dimen>
 </resources>
